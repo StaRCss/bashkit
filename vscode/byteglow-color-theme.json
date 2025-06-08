@@ -1,0 +1,101 @@
+{
+  "workbench.colorTheme": "Andromeda Colorizer",
+  "workbench.iconTheme": "vscode-icons",
+  "vscode-pets.petColor": "purple",
+  "vscode-pets.theme": "forest",
+  "vscode-pets.petSize": "large",
+  "vscode-pets.throwBallWithMouse": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.startupEditor": "none",
+
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#262529",
+    "titleBar.inactiveBackground": "#222224",
+    "titleBar.activeForeground": "#e45fdd",
+    "titleBar.inactiveForeground": "#55acbb",
+    "titleBar.border": "#e78ee0",
+
+    "activityBar.background": "#1b1b1b",
+    "activityBar.foreground": "#15c5e4",
+    "activityBar.border": "#db9ad6",
+    "activityBarBadge.background": "#ff33ee",
+    "activityBarBadge.foreground": "#1a0f3c",
+
+    "sideBar.background": "#1f1e1e",
+    "sideBar.foreground": "#eb8fde",
+    "sideBar.border": "#e798e1",
+
+    "editor.background": "#141414",
+    "editor.foreground": "#ff99ee",
+    "editorLineNumber.foreground": "#665b63",
+    "editor.selectionBackground": "#ff33ee55",
+    "editorCursor.foreground": "#33d6ff",
+
+    "statusBar.background": "#1e1e1f",
+    "statusBar.foreground": "#ff66dd",
+    "statusBar.border": "#e993e2",
+    "statusBar.debuggingBackground": "#02e9c2",
+    "statusBar.debuggingForeground": "#1a0f3c",
+
+    "terminal.background": "#141414",
+    "terminal.foreground": "#ff99ee",
+    "terminalCursor.foreground": "#33d6ff",
+    "terminal.ansiBlack": "#231235",
+    "terminal.ansiRed": "#ff5588",
+    "terminal.ansiGreen": "#55ffaa",
+    "terminal.ansiYellow": "#ffdd55",
+    "terminal.ansiBlue": "#7766ff",
+    "terminal.ansiMagenta": "#ff33ee",
+    "terminal.ansiCyan": "#55eeff",
+    "terminal.ansiWhite": "#ffccff",
+    "terminal.ansiBrightBlack": "#442288",
+    "terminal.ansiBrightRed": "#ff77aa",
+    "terminal.ansiBrightGreen": "#77ffaa",
+    "terminal.ansiBrightYellow": "#ffee77",
+    "terminal.ansiBrightBlue": "#9988ff",
+    "terminal.ansiBrightMagenta": "#ff55ff",
+    "terminal.ansiBrightCyan": "#77eeff",
+    "terminal.ansiBrightWhite": "#ffffff"
+  },
+
+  "terminal.integrated.cursorBlinking": true,
+  "editor.fontFamily": "Fira Code, monospace",
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "entity.name.class",
+          "entity.other.attribute-name.class",
+          "entity.name.tag.div",
+          "entity.name.tag.p",
+          "entity.name.tag.section"
+        ],
+        "settings": {
+          "foreground": "#f85ceb",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword",
+        "settings": {
+          "foreground": "#fa2ebd",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#52bffd"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#656e72",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  }
+}
